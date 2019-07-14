@@ -1,0 +1,27 @@
+{
+  "name": "trade-api",
+  "version": "0.0.0",
+  "description": "A server that executes trades via the Alpaca api",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malcolmsgroves/trade-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malcolmsgroves/trade-api/issues"
+  },
+  "homepage": "https://github.com/malcolmsgroves/trade-api#readme",
+  "dependencies": {
+    "@alpacahq/alpaca-trade-api": "^1.1.0",
+    "@types/node": "^12.6.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.0.0",
+    "typescript": "^3.5.3"
+  }
+}
