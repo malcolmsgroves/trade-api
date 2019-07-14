@@ -4,7 +4,10 @@
   "description": "A server that executes trades via the Alpaca api",
   "main": "src/index.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc",
+    "prepare": "npm run clean && npm run build",
+    "clean": "rm -rf build"
   },
   "repository": {
     "type": "git",
